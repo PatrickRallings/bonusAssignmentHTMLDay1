@@ -7,11 +7,13 @@
     <title>Bonus HTML Assignment for Day 1</title>
 </head>
 <body>
-    <h1>WIN Notes</h1>
-    <p>By: Patrick Rallings</p>
+    <header><h1>CTAC Notes</h1></header>
+    <p><i>Click on each day for notes</i></p>
+    <h2>Week 1</h2>
+    
     <details>
         <summary>
-            <u><b>Monday</b></u>
+        <strong>Monday</strong>
         </summary>
         
 
@@ -152,8 +154,8 @@
 
     <details>
         <summary>
-            <u><b>Tuesday</b></u>
-    </summary>
+        <strong>Tuesday</strong>
+        </summary>
     
                     <h4>PowerPoint Slide: "Self-Education"</h4>
                 <p>
@@ -748,8 +750,8 @@
     </details>
                 
     <details>
-                    <summary>
-                        <u><b>Wednesday</b></u>
+                <summary>
+                <strong>Wednesday</strong>
                 </summary>
                 
                 <p><strong>Growth vs. Fixed Mindset</strong></p>
@@ -1010,8 +1012,8 @@
     </details>
                 
     <details>
-                    <summary>
-                        <u><b>Thursday</b></u>
+                <summary>
+                <strong>Thursday</strong>
                 </summary>
                 <p><strong>How Computers Function</strong></p>
                 <p>Computers</p>
@@ -1463,8 +1465,8 @@
     </details>
 
     <details>
-                    <summary>
-                        <u><b>Friday</b></u>
+                <summary>
+                <strong>Friday</strong>
                 </summary>
 
 
@@ -1578,5 +1580,435 @@
     <li>Hold down option key to move directly to wherever you click</li>
     </ul>
     </details>
+
+    <h2>Week 2</h2>
+
+    <details>
+        <summary>
+        <strong>Monday</strong>
+        </summary>
+        <ul>
+            <li><b>Git</b>
+            <ul>
+                <li>Terminal-based software program that allows you to manage your version control (most common)</li>
+                <li>is incredibly vital to becoming a developer or anyone that works with code</li>
+                <li>GitHub itself will also be very useful in this class as well as in the future</li>
+                <li>Terminal on computer uses Git through the shell GitBash (in our case)</li>
+            </ul>
+            </li>
+            </br>
+            <li>Centralized Version Control
+            <ul>
+                <li>Essentially the way that we manage different versions of code (especially when working with other people)</li>
+                <li>Versions are stored in repositories (See repository)</li>
+            </ul>
+            </li>
+            </br>
+            <li>Repository
+            <ul>
+                <li>The area/folder where your code is stored</li>
+                <li>Creating a repository (repo) using Git is essentially just flagging a regular folder as a repo so that Git can know which file to tracked</li>
+                <li>There are local repositories, on each person's computer, and then the main repository</li>
+                <li>You &quot;push&quot; any differences whenever you make changes to some code</li>
+                <li>Local repositories are also updated by server (main) repository changes as well</li>
+            </ul>
+            </li>
+            </br>
+            <li>GitHub
+            <ul>
+                <li>Where your git projects are stored</li>
+                <li>Cloud service for storing and accessing your own or other's repositories</li>
+                <li>Even major companies, like Adobe, will store their code and frameworks on GitHub</li>
+            </ul>
+            </li>
+            </br>
+            <li>Local vs Remote Repository
+            <ul>
+                <li>Pushing is adding files to the remote repository after they have been committed in a developer's local repository</li>
+                <li>Committing is telling Git and the non-local repository to track a stated file
+                <ul>
+                    <li>Basically telling Git which files you are going to push into the remote repository</li>
+                </ul>
+                </li>
+                <li>Pushing up is updating the remote repository (master copy) after committing</li>
+                <li>Cloning will make a copy of the data within files as well as the repository
+                <ul>
+                    <li>Any changes into a clone could also be pushed into the main repository eventually</li>
+                </ul>
+                </li>
+                <li>Pull request is basically asking for the local repository to update according to the changes in the remote repository
+                <ul>
+                    <li>Example: You've made changed to some code but don't have the access to push the changes directly into the remote repository, so you request that the remote repository highlight all of your changes and allows other developers to also look at and comment on the changes</li>
+                    <li>GitHub is very valuable when it comes to  pull requests</li>
+                </ul>
+                </li>
+                <li>Merged is when you actually &quot;merge&quot; the code from your local repository and remote repository
+                <ul>
+                    <li>This step isn't really needed if you are only working with your own code by yourself</li>
+                    <li>You push code, but you merge branches</li>
+                </ul>
+                </li>
+                <li>Forking is essentially a point where code is copied and then changed to go into a new direction
+                <ul>
+                    <li>Can sometimes eventually be pushed/merged back into the original, but often is not</li>
+                </ul>
+                </li>
+                </br>
+                </br>
+            </ul>
+            </li>
+            <li>Open Source
+            <ul>
+                <li>When developer allows their code to be publicly visible</li>
+                <li>Can be a great way to crowdsource different opportunities
+                <ul>
+                    <li>Freelancers or hobbyists can fork the open source code, creating a potentially improved product (and sometimes the originally developer will want to add that new code into the original product)</li>
+                </ul>
+                </li>
+                <li>Open source does not always mean that you can just take that code and add to it and then make money off of that</li>
+            </ul>
+            </li>
+            </br>
+            <li>Git Basic Commands
+            <ul>
+                <li>&quot;git init&quot;
+                <ul>
+                    <li>This folder and any directories within it will be a get repo</li>
+                </ul>
+                </li>
+                <li>&quot;git clone&quot;
+                <ul>
+                    <li>You can use this command in tandem with a repo's url to copy that whole repo and place it into the folder you are currently in</li>
+                </ul>
+                </li>
+                <li>&quot;git add&quot;
+                <ul>
+                    <li>This is how you add files to be tracked before you actually commit them</li>
+                    <li>You can still remove or change these files before you commit them</li>
+                </ul>
+                </li>
+                <li>&quot;git commit&quot;
+                <ul>
+                    <li>This is how you actually tell the computer you want some changes to be made to a repository</li>
+                    <li>This will make any changes to your code accessible to others</li>
+                    <li>Not actually merging any branches</li>
+                </ul>
+                </li>
+                <li>&quot;-m&quot;
+                <ul>
+                    <li>Allows you to add a message when used as an option in tandem with commit and other commands</li>
+                </ul>
+                </li>
+                <li>&quot;git push&quot;
+                <ul>
+                    <li>Actually integrating commits into a master copy or branch</li>
+                    <li>Usually won't have the ability to push into a master repo until you are a higher-level employee
+                    <ul>
+                        <li>You can request to be able to push in these scenarios</li>
+                        <li>Sometimes you will have the ability to push into branches instead</li>
+                    </ul>
+                    </li>
+                </ul>
+                </li>
+                <li>&quot;git pull&quot;
+                <ul>
+                    <li>Pulls any changes from your local repository and the master (remote)</li>
+                    <li>Doesn't actually make any changes to your code, just gives you the changes that have been made</li>
+                </ul>
+                </li>
+                <li>&quot;git checkout&quot;
+                <ul>
+                    <li>Changes which branch you are currently tracking and located in</li>
+                </ul>
+                </li>
+                <li>&quot;git fetch&quot;
+                <ul>
+                    <li>Asking for all the different branches, details, commits and etc.
+                    <ul>
+                        <li>Not actually the code</li>
+                    </ul>
+                    </li>
+                </ul>
+                </li>
+                <li>&quot;git branch&quot;
+                <ul>
+                    <li>Just tells you the current branch you are on (like &quot;pwd&quot; but for branches</li>
+                </ul>
+                </li>
+                <li>&quot;git branch --list&quot;
+                <ul>
+                    <li>Tells you you're current branch as well as providing a list of all of the other branches </li>
+                </ul>
+                </li>
+                <li>&quot;git branch &lt;new branch name&gt;&quot;
+                <ul>
+                    <li>Creates a new branch</li>
+                </ul>
+                </li>
+                <li>&quot;git checkout  -b &lt;NewBranchName&gt;&quot;
+                <ul>
+                    <li>Also creates a new branch</li>
+                </ul>
+                </li>
+                <li>&quot;git rebase&quot;
+                <ul>
+                    <li>Copying a code to a new branch and merging at the same time</li>
+                    <li>Only really needed when you are on working on a branch that is not up to date on current master iteration/haven't pulled in a while</li>
+                </ul>
+                </li>
+                <li>&quot;git merge&quot;
+                <ul>
+                    <li>Actually merging/pushing code together</li>
+                </ul>
+                </li>
+                <li>&quot;git status&quot;
+                <ul>
+                    <li>Essentially asks where you are in the tracking process (what changes have been tracked or not tracked)</li>
+                    <li>Good to use just to get an idea of where you are constantly</li>
+                </ul>
+                </li>
+                <li>&quot;git add &lt;FileName&gt;&quot;
+                <ul>
+                    <li>Adds a specific untracked file to be tracked from now on</li>
+                </ul>
+                </li>
+                <li>&quot;git add .&quot;
+                <ul>
+                    <li>Changes all untracked repo files to tracked files</li>
+                </ul>
+                </li>
+            </ul>
+            </li>
+            </br>
+            <li>Git Branches
+            <ul>
+                <li>Master branch</li>
+                <li>Hotfix branch
+                <ul>
+                    <li>Used to add quick changes to problems in the master branch</li>
+                </ul>
+                </li>
+                <li>Develop branch
+                <ul>
+                    <li>Branch where constant general development is being added</li>
+                </ul>
+                </li>
+                <li>Feature
+                <ul>
+                    <li>Can branch off of the development branch for specific tickets</li>
+                </ul>
+                </li>
+                <li>Release
+                <ul>
+                    <li>Branch that connects development branches to master branches</li>
+                    <li>Where code can be tested and finalized before being merged into the master branch</li>
+                </ul>
+                </li>
+                <li>Head
+                <ul>
+                    <li>The commit that you are currently viewing/working off of</li>
+                </ul>
+                </li>
+                <li>You can see the different branches on GitHub by going to Insights -&gt; Network</li>
+                <li>Practice branching in git with the website https://learngitbranching.js.org/?locale=en_US</li>
+            </ul>
+            </li>
+            </br>
+            <li>Demonstration
+            <ul>
+                <li>ReadMe is just a file where you can document information about other files</li>
+                <li>GitIgnore is a file that automatically populates in a new GitHub repository where you can put other files that you cant want to connect with local repositories</li>
+                <li>You can choose your own license in GitHub
+                <ul>
+                    <li>Hector usually uses the MIT license</li>
+                </ul>
+                </li>
+                <li>Visual Studio Code is software you can use to actual create/edit code</li>
+                <li>Show hidden files on mac finder with shift+command+&quot;.&quot;</li>
+                <li>You can get rid of a repo but just deleting the git file</li>
+                <li>You have to re-add files every single time that you make a change</li>
+                <li>Making a new branch, like using &quot;mkdir&quot;, doesn't actually put you into the new branch, it just create it</li>
+            </ul>
+            </br>
+            </li>
+            <li>Scalable</li>
+            <li>The ability to scale a project/product to be larger or smaller depending on the level of demand</li>
+        </ul>
+    </details>
+
+    <details>
+        <summary>
+        <strong>Tuesday</strong>
+        </summary>
+        <p>~Review/Troubleshooting Day</p>
+    </details>
+
+    <details>
+        <summary>
+        <strong>Wednesday</strong>
+        </summary>
+        <ul>
+            <li>It is not actually a programming language; it is a markup language that tells web browsers how to structure web pages</li>
+            <li>Hypertext
+            <ul>
+                <li>The links that connect differing webpages</li>
+            </ul>
+            </li>
+            <li>Markup
+            <ul>
+                <li>The method HTML uses for annotating text/images /etc. in a web browser</li>
+                <li>Example: &lt;head&gt;</li>
+            </ul>
+            </li>
+            <li>Tags
+            <ul>
+                <li>The component that creates an element or sets apart a part of text</li>
+                <li>Uses &lt; and &gt;</li>
+                <li>Not case sensitive</li>
+            </ul>
+            </li>
+            <li></li>
+            <li>Boilerplate
+            <ul>
+                <li>Sections of repetitive code which have little no variation from one another</li>
+            </ul>
+            </li>
+            <li>Nesting elements
+            <ul>
+                <li>When you place HTML elements within one another</li>
+            </ul>
+            </li>
+            <li>Block-Level Elements
+            <ul>
+                <li>Elements that separate the code in chunks of line</li>
+            </ul>
+            </li>
+            <li>Inline Elements
+            <ul>
+                <li>Elements which are usually secluded to just one line of code</li>
+            </ul>
+            </li>
+            <li>Empty Elements
+            <ul>
+                <li>Elements that do not need a closing tag</li>
+                <li>Example: &quot;&lt;img&gt; or &lt;/br&gt;&quot;</li>
+            </ul>
+            </li>
+            <li>Attributes
+            <ul>
+                <li>The extra information within an element that does not actually appear within the content</li>
+            </ul>
+            </li>
+            <li>Anchor
+            <ul>
+                <li>Makes the text it encloses into a hyperlink</li>
+                <li>Created with &lt;a&gt;
+                <ul>
+                    <li>Nested inside should be href (for link), title, for visible content, and possibly target (to open the link in a new tab)</li>
+                </ul>
+                </li>
+            </ul>
+            </li>
+            <li>Boolean Attributes
+            <ul>
+                <li>Attributes that are written without any values</li>
+                <li>Example: &quot;disabled&quot; attribute within an &quot;&lt;input type =***&gt;&quot;</li>
+            </ul>
+            </li>
+            <li>Comments
+            <ul>
+                <li>You can make comments inside of code that will not be visible to a user by placing special characters inside of tags</li>
+                <li>Example: &quot;&lt;---This comment would not show up at all---&gt;&quot;</li>
+            </ul>
+            </li>
+            <li>Head of an HTML document is not displayed in the actual loaded web page
+            <ul>
+                <li>It contains &quot;&lt;title&gt;&quot;, which states the title for the browser tab and possibly links to CSS if it was used to style the page</li>
+                <li>The head is what the web browser uses to properly render the HTML document</li>
+            </ul>
+            </li>
+            <li>Metadata
+            <ul>
+                <li>Data that is used to format the web page but is not visible</li>
+                <li>Example: &lt;meta charset=&quot;utf-8&quot;&gt; sets the character encoding for the web page, allowing it to showcase pretty much any character in any language</li>
+            </ul>
+            </li>
+            <li>Author and Description
+            <ul>
+                <li>Another type of metadata that can show author of the page and description of the page
+                <ul>
+                    <li>Descriptions can help with search engine results without altering the visible web page</li>
+                </ul>
+                </li>
+                <li>Example: &quot;&lt;meta name=&quot;author&quot; content=&quot;Patrick Rallings&quot;&gt; for author or &lt;meta name=&quot;description&quot; contents=&quot;blank words&quot;&gt;&quot;</li>
+            </ul>
+            </li>
+            <li>Adding Icons
+            <ul>
+                <li>Favicon is a classic type of icon</li>
+                <li>Steps for adding reference:
+                <ul>
+                    <li>Save icon in same directory as the websites' index page using &quot;.ico&quot;
+                    <ul>
+                        <li>&quot;.gif&quot; and &quot;.png&quot; can also sometimes be used</li>
+                    </ul>
+                    </li>
+                    <li>Add reference code inside of HTML's &lt;head&gt;</li>
+                    <li>Code: &quot;&lt;link rel=&quot;icon&quot; href=&quot;favicon.ico&quot; type=&quot;image/x-icon&quot;&gt;&quot;</li>
+                </ul>
+                </li>
+            </ul>
+            </li>
+            <li>CSS
+            <ul>
+                <li>Should be initially reference inside of the HTML document's header with &lt;link&gt;
+                <ul>
+                    <li>&quot;&lt;linkrel=&quot;stylesheet&quot;href=&quot;my-css-file.css&quot;&gt;&quot;</li>
+                </ul>
+                </li>
+            </ul>
+            </li>
+            <li>JavaScript
+            <ul>
+                <li>Should be initially referenced with &quot;&lt;script&gt;&quot; inside of the HTML document's header
+                <ul>
+                    <li>&quot;&lt;scriptsrc=&quot;my-js-file.js&quot;defer&gt;&lt;/script&gt;&quot;
+                    <ul>
+                        <li>Have to have defer so HTML is parsed before the script is run</li>
+                    </ul>
+                    </li>
+                </ul>
+                </li>
+            </ul>
+            </li>
+            <li>Hyperlinks
+            <ul>
+                <li>Adds a direct link to another page</li>
+                <li>Example of linking to external site: &quot;&lt;p&gt;I'm creating a link to</li>
+            </ul>
+            </li>
+        </ul>
+        </li>
+        <li>&lt;ahref=&quot;https://www.mozilla.org/en-US/&quot;title=&quot;The best place to find more information about Mozilla's mission and how to contribute&quot;&gt;the Mozilla homepage&lt;/a&gt;&quot;.</li>
+        <li>&lt;/p&gt;
+            <ul>
+                <li>Example of linking to file in same directory: &quot;&lt;p&gt;Want to contact a specific staff member?&quot;</li>
+            </ul>
+            </li>
+        </ul>
+        </li>
+        <li>Find details on our &quot;&lt;ahref=&quot;contacts.html&quot;&gt;contacts page&lt;/a&gt;.&lt;/p&gt;&quot;
+            <ul>
+                <li>You can also link to files in sub and parent directories</li>
+            </ul>
+            </li>
+            <li></li>
+        </ul>
+        </li>
+        <li></li>
+    </ul>
+    </details>
+
+    <p><i>Created by Patrick Rallings</i></p>
 </body>
 </html>
