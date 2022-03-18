@@ -8,18 +8,35 @@
     <title>Bonus HTML Assignment for Day 1</title>
     <style>
         header {
-            background-color: rgb(61, 133, 127);
+            background-color: cadetblue;
             padding: 10px;
+            border: 5px double white;
             text-align: center;
             font-size: 18px;
             color: white;
+            border-radius: 0px 0px 25px 25px;
         }
         
         footer {
             background-color: rgb(61, 133, 127);
+            
             padding: 1px;
             text-align: center;
             color: white;
+            border-radius: 25px 25px 0 0;
+        }
+        details {
+            margin-left: 10%;
+            margin-right: 15%;
+        }
+        h2 {
+            text-align: center;
+        }
+        hr {
+            margin-left: 10%;
+            margin-right: 15%;
+            border-style: dashed;
+            border-color: cadetblue;
         }
     </style>
 
@@ -29,10 +46,10 @@
     <header>
         <h1>CTAC Notes</h1>
     </header>
-    <p><i>Click on each day for corresponding notes</i></p>
+    <p style="text-align: center;"><i>Click on each day for corresponding notes</i></p>
     <h2>Week 1</h2>
 
-    <details style="border: 2px; border-style: ridge; color: black;">
+    <details>
         <summary>
             <strong style="cursor: pointer;">Monday</strong>
         </summary>
@@ -171,8 +188,8 @@
             <section style="border-top: 2px;border-top-style: solid; color: black;"></section>
 
     </details>
-
-    <details style="border: 2px; border-style: ridge; color: black;">
+<hr>
+    <details>
         <summary>
             <strong style="cursor: pointer;">Tuesday</strong>
         </summary>
@@ -654,8 +671,8 @@
         <section style="border-top: 2px;border-top-style: solid; color: black;">
 
     </details>
-
-    <details style="border: 2px; border-style: ridge; color: black;">
+<hr>
+    <details>
         <summary>
             <strong style="cursor: pointer;">Wednesday</strong>
         </summary>
@@ -916,8 +933,8 @@
         </ul>
 
     </details>
-
-    <details style="border: 2px; border-style: ridge; color: black;">
+<hr>
+    <details>
         <summary>
             <strong style="cursor: pointer;">Thursday</strong>
         </summary>
@@ -1353,8 +1370,8 @@
 
 
     </details>
-
-    <details style="border: 2px; border-style: ridge; color: black;">
+<hr>
+    <details>
         <summary>
             <strong style="cursor: pointer;">Friday</strong>
         </summary>
@@ -1470,10 +1487,10 @@
             <li>Hold down option key to move directly to wherever you click</li>
         </ul>
     </details>
-
+<hr>
     <h2>Week 2</h2>
 
-    <details style="border: 2px; border-style: ridge; color: black;">
+    <details>
         <summary>
             <strong style="cursor: pointer;">Monday</strong>
         </summary>
@@ -1726,15 +1743,15 @@
             <li>The ability to scale a project/product to be larger or smaller depending on the level of demand</li>
         </ul>
     </details>
-
-    <details style="border: 2px; border-style: ridge; color: black;">
+<hr>
+    <details>
         <summary>
             <strong style="cursor: pointer;">Tuesday</strong>
         </summary>
         <p>~Review/Troubleshooting Day</p>
     </details>
-
-    <details style="border: 2px; border-style: ridge; color: black;">
+<hr>
+    <details>
         <summary>
             <strong style="cursor: pointer;">Wednesday</strong>
         </summary>
@@ -1877,10 +1894,678 @@
         </ul>
         </br>
     </details>
-    <br>
-    <footer>
-        <p><i>Created by Patrick Rallings</i></p>
-    </footer>
+    <hr>
+    <details>
+        <summary>
+            <strong style="cursor: pointer;">Thursday</strong>
+        </summary>
+        <p>Boilerplate</p>
+<ul>
+<li>The boiler plate that signifies this is an HTML document</li>
+<li>Head tag makes up the description (meta data) for the web page</li>
+<ul type="circle">
+<li>This includes style references for other document elements</li>
+</ul>
+<li>Title displays the heading inside the browser</li>
+<li>Body contains entirety of page content</li>
+</ul>
+<p>&nbsp;Tags Structure</p>
+<ul type="disc">
+<li>Proper structure is important for letting the file know what sections of content should be effected by their relative tags</li>
+<li>Larger tags will always be at the top of the nest&nbsp;</li>
+</ul>
+<p>HTML Tags</p>
+<ul type="disc">
+<li>Headings</li>
+<ul type="circle">
+<li>Descending order of heading level relates to smaller header</li>
+<li>Headers automatically include a sort of page break</li>
+</ul>
+<li>Paragraph</li>
+<ul type="circle">
+<li>Signifies a paragraph and will wrap text based off of either browser size or preset page parameters</li>
+<li>Ends output content line at end of tag</li>
+</ul>
+<li>Anchor (links)</li>
+<ul type="circle">
+<li>These tags anchor words to webpages; specifically for clickable links that will send the user to another website</li>
+</ul>
+<li>Image</li>
+<ul type="circle">
+<li>Commonly used for placing images</li>
+<li>Can link either an image at an online location or stored within the same directory as the HTML file</li>
+</ul>
+<li>Unordered List</li>
+<ul type="circle">
+<li>Bulleted list</li>
+</ul>
+<li>Ordered List</li>
+<ul type="circle">
+<li>Numbered list</li>
+</ul>
+<li>Hyper Reference Link</li>
+<ul type="circle">
+<li>"href:"</li>
+<li>The actual link within an anchor or other linking tags</li>
+</ul>
+<li>Page Breaks</li>
+<ul type="circle">
+<li>"&lt;hr&gt;"</li>
+<ul type="disc">
+<li>Page break that includes a horizontal line unless otherwise specified</li>
+</ul>
+<li>"&lt;br&gt;"</li>
+<ul type="disc">
+<li>Page break with no thematic elements</li>
+</ul>
+</ul>
+<li>Divider</li>
+<ul type="circle">
+<li>"&lt;div&gt;*content*&lt;/div&gt;"</li>
+<li>The most common tag you will see</li>
+<li>Multipurpose container</li>
+<li>Has no visual representation without having class or id reference</li>
+</ul>
+<li>Span</li>
+<ul type="circle">
+<li>"&lt;span&gt;*content*&lt;/span"</li>
+<li>Similar use-cases as "&lt;div&gt;", but is used as an inline container</li>
+</ul>
+<li>Bold vs. Strong</li>
+<ul type="circle">
+<li>"&lt;b&gt;*&lt;/b&gt;" only changes the text</li>
+<li>"&lt;strong&gt;*&lt;/strong&gt;" not only bolds the text, but also will emphasize it for a screen ready (more accessible)</li>
+</ul>
+<li>Italics vs. Emphasize</li>
+<ul type="circle">
+<li>Same difference as bold vs strong (italics only changed text while emphasize makes text italic but also changes verbal representation for screen readers</li>
+</ul>
+<li>Mark</li>
+<ul type="circle">
+<li>"&lt;mark&gt;*&lt;/mark&gt;</li>
+<ul type="disc">
+<li>Highlights text</li>
+</ul>
+</ul>
+<li>Script</li>
+<ul type="circle">
+<li>Tells the page that everything in between the tags are JavaScript and should be executed as such</li>
+<li>Can also be done inline</li>
+</ul>
+</ul>
+<p>&nbsp;HTML Attributes</p>
+<ul type="disc">
+<li>"src"</li>
+<ul type="circle">
+<li>Links source of retrieval</li>
+</ul>
+<li>"width" &amp; "height"</li>
+<ul type="circle">
+<li>Automatically in units of pixels, but you can make it in percentages, which would have the object take of that percentage of either the screen or whatever code section it is nested within</li>
+</ul>
+<li>"alt"</li>
+<ul type="circle">
+<li>The alternative text shown if an image does not load properly</li>
+<li>Extremely important to the accessibility of an image/page's content as a whole</li>
+<ul type="disc">
+<li>Example: Necessary for people that use verbal screen readers</li>
+</ul>
+</ul>
+<li>"style"</li>
+<ul type="circle">
+<li>Inline CSS for stating style of an object</li>
+</ul>
+<li>"id"</li>
+<ul type="circle">
+<li>Specific ID that you are giving an element</li>
+<li>Used to target one specific element</li>
+</ul>
+<li>"class"</li>
+<ul type="circle">
+<li>Similar to an ID, but can be used across multiple elements and connect them</li>
+<li>You can have multiple classes</li>
+</ul>
+</ul>
+<p>Comments</p>
+<ul type="disc">
+<li>"&lt;!-- This is a comment that will not show --&gt;</li>
+<li>Gives the ability for developers to put notes on a page which wont effect the code or be visible by the user in any way</li>
+</ul>
+<p>HTML Forms</p>
+<ul type="disc">
+<li>Common way to have users interact with objects without using JavaScript</li>
+<li>Text Fields</li>
+<ul type="circle">
+<li>"label" is a tag specific to labelling their associated input fields</li>
+<ul type="disc">
+<li>Linked to the field by using for="*fieldname*"</li>
+</ul>
+<li>Input fields have various differing types to choose from (such as text box)</li>
+<li>Use differing names for each field so that multiple fields can be used by the user</li>
+<li>Attribute "placeholder" can be used to show the text inside the form until the user inputs their information</li>
+</ul>
+<li>Radio Buttons</li>
+<ul type="circle">
+<li>When grouped and given the same name, only one object out of the group can be selected</li>
+<li>Can create a checkbox if the objects/fields use differing names</li>
+</ul>
+<li>Submit Button</li>
+<ul type="circle">
+<li>Tells the form, by using "form action=*" to trigger an action once the form button is clicked</li>
+</ul>
+</ul>
+<p>&nbsp;HTML Layout Elements</p>
+<ul type="disc">
+<li>By themselves, each of the above elements do nothing different than a div</li>
+<ul type="circle">
+<li>The meaning is derived by the additional attributes which can be included as references inside of the head</li>
+</ul>
+</ul>
+    </details>
+    <hr>
+    <details>
+        <summary>
+            <strong style="cursor: pointer;">Friday</strong>
+        </summary>
+        <p>Basics of CSS</p>
+<ul type="disc">
+<li>CSS = Cascading Style Sheets</li>
+<li>CSS visually changes HTML elements on a page</li>
+<li>Any commands placed nearer to the bottom of the coding page will overrule higher placed commands (cascading)</li>
+<li>Syntax: The grammar of code</li>
+<ul type="circle">
+<li>The specific characters and instructions that a given language needs to create properties</li>
+</ul>
+<li>CSS syntax:</li>
+<ul type="circle">
+<li>Selector is the element you are targeting with you CSS code</li>
+<li>Declaration is the overall code aside from the selector</li>
+<li>You need a semicolon between each property: value pairing if you have more than one</li>
+<li>CSS comments start with /* and end with */</li>
+<ul type="disc">
+<li>But this syntax can only be used within internal or external CSS sections</li>
+</ul>
+</ul>
+</ul>
+<p>Three Main Ways to Add CSS</p>
+<ul type="disc">
+<li>Inline CSS</li>
+<li>Internal CSS</li>
+<ul type="circle">
+<li>Internal CSS is always located in the head in html and within a closed style tag</li>
+</ul>
+<li>External CSS</li>
+<ul type="circle">
+<li>Linking an external page with CSS code (reference is inside head of page being styled)</li>
+<li>The most common method for styling (for complex styling)</li>
+<li>You are linking with rel, which is short for relationship, and signifying that this particular link goes to a stylesheet</li>
+<li>You don't need a boilerplate at all for external CSS stylesheets</li>
+<li>You can also link external stylesheets that are hosted online</li>
+<li>Linking external CSS sheets are very similar to the script element, which links a JavaScript file</li>
+</ul>
+</ul>
+<p>What You Can Style</p>
+<ul type="disc">
+<li>Borders</li>
+<ul type="circle">
+<li>Using border by itself is a shortcut which requires specific three unnamed values in a specific order (border-style, border-width, border-color)</li>
+<li>You can also just use properties like border-style by themselves</li>
+</ul>
+<li>Containers</li>
+<ul type="circle">
+<li>Have some of their own specific properties</li>
+<li>Example:</li>
+<ul type="disc">
+<li>Background-color</li>
+<li>Text-align: Aligns the text in relation to the container they are in</li>
+</ul>
+</ul>
+<li>Fonts</li>
+<ul type="circle">
+<li>You can change a variety of properties, including:</li>
+<ul type="disc">
+<li>Color</li>
+<li>Font-family: What we think of as font, ex. Times New Roman</li>
+<ul type="square">
+<li>Not all fonts will be able to be used by all end-users, therefore you can make a back-up font(s)</li>
+<li>Font will be browser default if the one(s) chosen are not available</li>
+</ul>
+<li>Font-weight: How bold font is (default is usually 300; differing weights are in series of 100's)</li>
+</ul>
+<li>Border-collapse states whether the cells inside a table have shared or separate borders</li>
+</ul>
+</ul>
+<p>&nbsp;CSS Selectors</p>
+<ul type="disc">
+<li>Start class selectors with a "."</li>
+<ul type="circle">
+<li>Example: ".class" would be a reference point for class="class"</li>
+</ul>
+<li>IDs are targeted with "#"</li>
+<li>CSS can also be used to do very basic calculations (see below)</li>
+<li>Universal CSS selector is the *</li>
+<ul type="circle">
+<li>It selects every item on a page</li>
+</ul>
+<li>Type selectors use a specific type of tag already in the page</li>
+<ul type="circle">
+<li>Example: div, button, etc</li>
+</ul>
+<li>Class and id selectors work in the same manner as type and the universal, but are more specific</li>
+<ul type="circle">
+<li>Use a . when creating a class reference for CSS</li>
+<li>Use a # when creating an id reference for CSS</li>
+<li>Classes will likely be used the most</li>
+</ul>
+<li>You can create very specific selectors by combining differing individual selectors</li>
+<ul type="circle">
+<li>Example: "div.class" would target any divs that are in the class "class"</li>
+</ul>
+<li>You can use multiple selectors (as an and/or) by using a comma between each</li>
+<ul type="circle">
+<li>Example: div, .class would target all divs and all items in the "class" class, not just the ones that combine both</li>
+</ul>
+<li>You can target nested items by using a space between selectors</li>
+<ul type="circle">
+<li>This doesn't discriminate by levels of nesting</li>
+<li>Example: ul li {} would target the items within a list, and not the list itself</li>
+<li>Example2: div b {} would target any bold content within a div</li>
+</ul>
+<li>Using " &gt; " in between two selectors would also target nested objects, but only those nested immediately one level down</li>
+<ul type="circle">
+<li>Example: div &gt; p {} would target any paragraph immediately under any div, but not any paragraphs within those initially targeted paragraphs</li>
+</ul>
+<li>The use of a tilde, or "~", between selectors would target only the sibling objects that come *after* the first selector</li>
+<ul type="circle">
+<li>Using the + symbol instead would only target the first one that comes after</li>
+<li>Example: li.red ~ li {} would target any lists, on the same level of nesting (siblings), that come *after* the first occurrence of a class="red" list</li>
+</ul>
+<li>"p:nth-child(odd){***}" would style every other child element within a paragraph</li>
+<li>"a[target]:hover{***}"</li>
+<ul type="circle">
+<li>The target aspect is how to specify what you want to be targeted</li>
+<ul type="disc">
+<li>Example: targeting bolded items</li>
+</ul>
+<li>Hover signifies that you want *** to happen to the targeted elements upon hovering a mouse over them</li>
+<li>Hover could be substituted for something else</li>
+</ul>
+<li>"#main &gt; p + h2"</li>
+<ul type="circle">
+<li>"&gt;" specifies the child of element</li>
+<li>"+ h2" adds another element</li>
+</ul>
+<li>"div p {***}"</li>
+<ul type="circle">
+<li>Target any p tag inside of a div</li>
+</ul>
+<li>Pseudo Classes</li>
+<ul type="circle">
+<li>Adding a keyword to a selector to identify a specific state to target by using : to separate the keyword to the selector</li>
+<li>These will be a large percentage of our CSS coding</li>
+<ul type="disc">
+<li>Example: button:hover</li>
+</ul>
+</ul>
+<li>Not Pseudo Class</li>
+<ul type="circle">
+<li>Targets every item that is not identified by the pseudo class by using not Infront of a pseudo class within parenthesis</li>
+<li>Example: button:not(hover) {} will target every button that is not currently being hovered above</li>
+</ul>
+</ul>
+<p>CSS Specificity</p>
+<ul type="disc">
+<li>Some tags are more important than others based on their specificity</li>
+<li>Selectors with more specificity will override other code targeting the same item</li>
+<ul type="circle">
+<li>Example: P tag will be overridden by p-tag with class, and both of those would be overridden by p-tag with id</li>
+</ul>
+<li>Inline CSS will trump any class, id, or other</li>
+<ul type="circle">
+<li>EXCEPT for something with "!important"</li>
+<ul type="disc">
+<li>Example: p {color: red !important}</li>
+</ul>
+</ul>
+</ul>
+<p>The Box Model</p>
+<ul type="disc">
+<li>The way that we space out tags/content on a page</li>
+<li>Every element/piece of content has&nbsp; padding, border, and margin</li>
+<li>Padding</li>
+<ul type="circle">
+<li>The space immediately around some piece of content</li>
+</ul>
+<li>Border</li>
+<ul type="circle">
+<li>The immediate space at the edge of the padding</li>
+</ul>
+<li>Margin</li>
+<ul type="circle">
+<li>The area immediately outside of the border</li>
+</ul>
+<li>You can specify which aspect of the box model you want to target and give attributes</li>
+<ul type="circle">
+<li>You can also target each part of each aspect (Ex. Padding-bottom)</li>
+<li>Using the shortcut of just overall piece, such as padding, requires four differing values to signify each of the four sides' values (just putting one value makes the assumption that all four values are the same)</li>
+</ul>
+</ul>
+    </details>
+    <hr>
+        <h2>Week 3</h2>
+    <details>
+        <summary>
+            <strong style="cursor: pointer;">Monday</strong>
+        </summary>
+        <p>Flexbox</p>
+<ul type="disc">
+<li>Uses a modeling system to give properties to a container and the items within a container</li>
+<li>Alternative to the grid system, as a solution to centering and placing objects on a page</li>
+<li>X-Axis is considered the main axis</li>
+<li>"display: flex"</li>
+<ul type="circle">
+<li>Automatically applies all of the properties of flex to container and items in the container (from left to right)</li>
+</ul>
+<li>It addresses most properties in comparison to the</li>
+<li>Positioning vertical: Relation to the cross axis</li>
+<li>Positioning horizontally: Relation to the main axis</li>
+<li>Each flex container is its own row on a page</li>
+</ul>
+<p>Content Positioning</p>
+<ul type="disc">
+<li>Flex direction</li>
+<ul type="circle">
+<li>What direction the container actually flows</li>
+<li>Default in the row direction</li>
+</ul>
+<li>Flex-wrap</li>
+<ul type="circle">
+<li>Decides whether or not the containers will continue in the set direction indefinitely, or wrap the page</li>
+</ul>
+<li>Justify-content</li>
+<ul type="circle">
+<li>How the content is placed along the main (x) axis</li>
+<li>Flex-start</li>
+<ul type="disc">
+<li>Justifies left to right, filling space as needed (default)</li>
+</ul>
+<li>Flex-end</li>
+<ul type="disc">
+<li>Aligning items from the right</li>
+</ul>
+<li>Center</li>
+<ul type="disc">
+<li>(Containers in the middle)</li>
+</ul>
+<li>Space-between</li>
+<ul type="disc">
+<li>Centered but there is even spacing in between containers</li>
+</ul>
+<li>Space-around</li>
+<ul type="disc">
+<li>Centered, but space in-between the items and some on the ends</li>
+</ul>
+<li>Space-evenly</li>
+<ul type="disc">
+<li>Space is added evenly between all items and the sides</li>
+</ul>
+</ul>
+</ul>
+<ul type="disc">
+<li>Align-items</li>
+<ul type="circle">
+<li>How items are placed along the cross axis (y-axis)</li>
+</ul>
+</ul>
+<ul type="disc">
+<li>Align-content</li>
+<ul type="circle">
+<li>How content is wrapped around the main and cross axis</li>
+</ul>
+</ul>
+<p>Flex Items</p>
+<ul type="disc">
+<li>Order</li>
+<ul type="circle">
+<li>Refers to the order of each specified order</li>
+<li>By default, each element's order is 0 and thus will appear in the order that they are written</li>
+<li>You can make an element always on the left side of the page by giving it a value of -1</li>
+<li>The numbers don&rsquo;t necessitate exact order</li>
+<ul type="disc">
+<li>Example: container with order value 5 is always 5th, it just will always come after any container with an order value less than 5</li>
+</ul>
+<li>Also applicable to vertical order (flex-column)</li>
+</ul>
+<li>Flex-grow</li>
+<ul type="circle">
+<li>Uses multiplication to decide each container's size in relation to its sibling containers</li>
+<li>Example: flex-grow value of 1 for all containers will give each container the same size</li>
+<li>Example: flex-grow value of 2 for one container will make that container twice as big as any container will value of 1</li>
+</ul>
+<li>Align-self</li>
+<ul type="circle">
+<li>Like align-items, in that it states the alignment, but it is specific to one element within the overall container, rather than all items within the container</li>
+</ul>
+</ul>
+<p>Centering</p>
+<ul type="disc">
+<li>Text-align</li>
+<ul type="circle">
+<li>Normal alignment for text (as you would find in Microsoft office, etc.)</li>
+</ul>
+<li>Using flex to align</li>
+<ul type="circle">
+<li>Justify-content, align-items</li>
+<ul type="disc">
+<li>Makes it easy to align/center objects that aren't text</li>
+</ul>
+<li>Great for most use-cases</li>
+</ul>
+<li>Pre-flex</li>
+<ul type="circle">
+<li>Prior to flex, or not using flex, will require the alignment to be written out in several different ways</li>
+<ul type="disc">
+<li>Position absolute: Positions by specific pixels</li>
+<li>Position relative: Can give percentages to give the object a position relative to the rest of the overall container</li>
+<ul type="square">
+<li>Relates to the top left-most pixel on the inner container and the object, not the center of them</li>
+</ul>
+</ul>
+</ul>
+<li>The easiest way to center an image is by using the margins and block style</li>
+<ul type="circle">
+<li>Example:</li>
+</ul>
+</ul>
+<p>img {</p>
+<p>display: block;</p>
+<p>margin-left: auto;</p>
+<p>margin-right: auto;</p>
+<p>width: 50%;</p>
+<p>}</p>
+<p>&nbsp;</p>
+<p>Float</p>
+<p>&nbsp;</p>
+<ul type="disc">
+<li>Another way you can align HTML elements with CSS is by using the float property with the following values:</li>
+<li>none (The element this is directed to does not float, will be displayed just where it occurs in the text. This is the default)</li>
+<li>left (The element this&nbsp;is directed to&nbsp;floats to the left of its container)</li>
+<li>right (The element&nbsp;this is directed to&nbsp;floats the right of its container)</li>
+<li>initial (Sets this property to its default value.&nbsp;<a href="https://www.w3schools.com/cssref/css_initial.asp">Read more about initial here</a>)</li>
+<li>inherit (Inherits this property from its parent element.&nbsp;<a href="https://www.w3schools.com/cssref/css_inherit.asp">Read more about inherit here</a>)</li>
+<li>Clearfix fixes when elements are sitting outside of the containers or not situated correctly in line with other elements</li>
+</ul>
+<p>&nbsp;</p>
+<p>Animations</p>
+<ul type="disc">
+<li>CSS can do a multitude of animations</li>
+<ul type="circle">
+<li>Color, background color, height, width, much more</li>
+</ul>
+<li>Hover.css: a great website for animated buttons/animations in general (essentially someone's repo)</li>
+<li>Most webpages use animations by using keyframes</li>
+<ul type="circle">
+<li>.element {</li>
+</ul>
+</ul>
+<p>&nbsp;&nbsp; Animation: pulse 5s infinite;</p>
+<p>}</p>
+<p>&nbsp;</p>
+<p>&nbsp;&nbsp; @keyframes (name) {</p>
+<p>&nbsp;&nbsp; 0% {</p>
+<p>&nbsp;&nbsp; Background-color: black;</p>
+<p>}</p>
+<p>&nbsp;&nbsp; 100% {</p>
+<p>&nbsp;&nbsp; Background-color: white;</p>
+<p>}</p>
+<p>}</p>
+<ul type="circle">
+<li>Example above: Would have (name) keyframe occur, beginning at 0 seconds the background color would be black and the gradient would gradually shift to black over a period of 5 seconds</li>
+</ul>
+    </details>
+    <hr>
+    <details>
+        <summary>
+            <strong style="cursor: pointer;">Tuesday</strong>
+        </summary>
+        <p><strong>Review</strong></p>
+<p>&nbsp;</p>
+<p>Information that Required Looking Up</p>
+<ul type="disc">
+<li>Tools tips can be done by using an in-line title tag</li>
+<li>You can preserve the line breaks and spaces in coded text with the pre tag</li>
+<li>The del tag will strike through text, "defining deleted text"</li>
+<li>Comments are made by &lt;!-- *** --&gt;</li>
+<li>Remove link underline with style="text-decoration: none"</li>
+<li>Have link open in a new page by using "target="_blank" within the tag</li>
+<li>Add a caption to a table using the caption tag after the initial table tag</li>
+<li>To make a column span more than one column, use colspan inside column's tag</li>
+<ul type="circle">
+<li>Rowspan for rows</li>
+</ul>
+<li>Use style="list-style-type:***" to change from bullets in a list</li>
+<li>Add two classes to one element by including a space in between then when naming</li>
+<ul type="circle">
+<li>Example: class="firstClass secondClass"</li>
+</ul>
+</ul>
+<ul type="disc">
+<li><em><strong>NEED TO WORK ON FORMS&nbsp;</strong></em></li>
+</ul>
+<ul type="disc">
+<li><em><strong>NEED TO WORK ON INPUT TYPES</strong></em></li>
+</ul>
+<ul type="disc">
+<li>Background-attachment: fixed; allows you to have the background stay still while the user scrolls</li>
+<li>Outline works the same as a border but actually lies outside of an element</li>
+<li>Text-transform: uppercase/lowercase</li>
+<li>A:visited would change a property for pages that have been visited</li>
+<li>[List-style-img: url(***)] changes the list icon (bullet) to a specified image</li>
+<li>Visibility:hidden hides element but keeps the space it took up</li>
+<li>Display:none hides and takes away the space of an element</li>
+<li>Overflow:scroll; will force a scroll bar</li>
+<ul type="circle">
+<li>Overflow-x:scroll; would add a scroll bar for horizontal movement</li>
+</ul>
+</ul>
+    </details>
+    <hr>
+    <details>
+        <summary>
+            <strong style="cursor: pointer;">Wednesday</strong>
+        </summary>
+        <p>CSS Frameworks</p>
+<ul type="disc">
+<li>Essentially shortcuts for items in coding that are commonly used</li>
+<li>Top CSS frameworks: Bootstrap, bulma, tailwind, materialize, foundation, pure, and semantic UI</li>
+<li>Opinionated frameworks mean that they have a generally have an idea of what the best practices are for coding (in CSS)</li>
+<li>Responsive frameworks scale for both mobile and desktop</li>
+<li>Incredibly large frameworks do have the potential to slow down your code</li>
+</ul>
+<p>Basics of Bootstrap</p>
+<ul type="disc">
+<li>An opinionated framework</li>
+<ul type="circle">
+<li>Example: The framework is created for set screen dimensions</li>
+</ul>
+<li>One of the older CSS frame works</li>
+<li>Easier to use than most</li>
+<li>Open source</li>
+<li>Pre-built components</li>
+<li>Responsive</li>
+<ul type="circle">
+<li>It works visually on m</li>
+<li>Mobile and desktop</li>
+</ul>
+<li>"Scope" is an accessibility term that is used to define the contents of the screen to screen readers</li>
+</ul>
+<p>Using Bootstrap</p>
+<ul type="disc">
+<li>Get started by simply copy/pasting two difference bootstrap references into the head of your html</li>
+</ul>
+<p>Bootstrap Structure</p>
+<ul type="disc">
+<li>You have to structure your code in a specific way in order for it to function</li>
+<li>Similar structure as a grid system</li>
+<li>You put everything into a container, which ends up representing your entire webpage</li>
+</ul>
+<p>Bootstrap Grid System</p>
+<ul type="disc">
+<li>The full page of bootstrap is within a div that has the class of container, so: &lt;body&gt;&lt;div class="container"&gt;***entire webpage content***&lt;/div&gt;&lt;/body&gt;</li>
+<li>Each section of bootstrap is created with a div that has the class of row "&lt;div class="row"&gt; ****entire row content***&lt;/div&gt;</li>
+<li>Then, each div row contains more divs with the class of col, so: &lt;div class="col"&gt;***Content within specific portion of one row***&lt;/div&gt;</li>
+<li>The sized of columns are naturally determined by how many columns you put into each individual row (unless otherwise specified)</li>
+<li>You can use differing col-# as long as the total row adds up to 12</li>
+<ul type="circle">
+<li>Anything going over 12 would spill into a new row (with just white space filling the rest of the row"</li>
+</ul>
+<li>You don't have to name each individual columns' size, you can just the size of one column and the rest in its row will equally divide to add up to 12</li>
+<ul type="circle">
+<li>Example: col-6 in the middle of two col's would have each outside col be equal to col-3's</li>
+</ul>
+</ul>
+<p>Responsive Bootstrap (Columns)</p>
+<ul type="disc">
+<li>Responsive refers to the ability of a website to scale to different screens</li>
+<li>Based off of breakpoints</li>
+<ul type="circle">
+<li>Breakpoints are the sizes, in pixel width, at where the website's content layout gets altered</li>
+</ul>
+<li>You can specify what arrangement of columns you want based off of the screen size</li>
+<ul type="circle">
+<li>Example: col-3, col-6, col-3, col-12-sm (would be one row's worth of classes)</li>
+</ul>
+</ul>
+<p>Elements in Bootstrap</p>
+<ul type="disc">
+<li>There are numerous classes which can be used to</li>
+<li>add style to differing elements</li>
+<li>Try to use as many defaults as you can when using bootstrap; but you can also add more attributes through additional bootstrap classes</li>
+<li>Examples:</li>
+<ul type="circle">
+<li>Thumbnail image</li>
+</ul>
+</ul>
+<ul type="circle">
+<li>Buttons</li>
+</ul>
+<ul type="circle">
+<li>Table</li>
+</ul>
+<ul type="circle">
+<li>Navs</li>
+<ul type="disc">
+<li>Likely be used more than most other elements in bootstrap</li>
+</ul>
+</ul>
+<p>Bootstrap's Website</p>
+<ul type="disc">
+<li>They offer the ability to both use online hrefs as well as download the file onto your computer to reference</li>
+<li>The docs link in the navbar takes you to a page that gives you information on the various classes, abilities, potential variations within Bootstrap</li>
+</ul>
+    </details>
+    <hr>
+
 </body>
 
 </html>
